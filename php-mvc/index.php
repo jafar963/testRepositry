@@ -36,4 +36,4 @@ $app->register(new Csanquer\Silex\PdoServiceProvider\Provider\PDOServiceProvider
                    'dbname' => ltrim($dbopts["path"],'/')
                    )
                )
-);
+); 
