@@ -1,0 +1,99 @@
+.profile-container .content {
+    padding-top: 40px;
+}
+
+.profile-container {
+    box-shadow: 2px 2px 10px 10px #0000000b;
+    border-radius: 20px;
+    width: 650px;
+    left: 50%;
+    margin: 0 auto;
+    margin-top: 55px;
+}
+
+.profile-container #profile-pic {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: -40px;
+}
+
+.profile-data {
+    padding: 30px;
+}
+
+.profile-data label {
+    font-weight: bolder;
+}
+
+.profile-data input,
+.profile-data select {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    outline: none;
+    background: transparent;
+    font-size: 13px;
+    border: none;
+    border-bottom: 0.5px solid rgb(87, 86, 86);
+}
+
+.edit-profile-container input[type="submit"] {
+    margin-top: 20px;
+    font-size: 16px;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+    width: 100%;
+    background: #ec04043c;
+    height: 30px;
+}
+
+.edit-profile-container input[type="submit"]:hover {
+    cursor: pointer;
+    background: rgb(192, 120, 120);
+    background-color: rgb(182, 81, 81);
+    color: white;
+    transition: 0.4s all;
+    transform: translateY(-2px);
+}
+
+.profile-chooser {
+    background-color: rgb(240, 203, 203);
+    margin-top: -30px;
+    margin-left: 70px;
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 50%;
+    opacity: 0.8;
+    position: absolute;
+    cursor: pointer !important;
+}
+
+.profile-chooser i {
+    size: 30px !important;
+    position: absolute;
+    margin-left: 6px;
+    z-index: -3;
+    color: black !important;
+    margin-top: 7px !important;
+}
+
+i>span {
+    padding-left: 2px;
+    height: 12px;
+    font-size: 12px;
+    color: red;
+}
+
+.profile-chooser input[type="file"] {
+    opacity: 0;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-top: 3px;
+    margin-left: 2px;
+}

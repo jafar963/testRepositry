@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.body-home {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+.wrapper {
+    background: url("../images/slider-04.jpeg") no-repeat center center;
+    background-size: cover;
+    min-height: 40rem;
+    animation: change 30s infinite ease-in-out;
+}
+
+.logo-conatct {
+    font-size: 50px;
+    color: brown;
+    border: 1 solid black;
+    background-color: blanchedalmond;
+}
+
+.section {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 4%;
+}
+
+.section h1 {
+    color: #fff;
+    line-height: 50px;
+}
+
+.btn-1 {
+    background-color: rgb(194, 55, 55);
+    padding: 0.7rem 1rem;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin-left: 190px;
+}
+
+.btn-1:hover {
+    background-color: rgb(9, 43, 9);
+    cursor: pointer;
+}
+
+showcase h1 {
+    margin-top: 100px;
+    margin-bottom: 5%;
+    text-align: center;
+    align-items: center;
+}
+
+.quizes {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 20%;
+}
+
+.quizes img {
+    width: 170px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    margin: auto;
+    margin-top: 5px;
+}
+
+@keyframes change {
+    0% {
+        background-image: url("../images/slider-01.jpg") no-repeat;
+        /* opacity: 0.7; */
+        background-size: cover;
+    }
+    20% {
+        /* opacity: 0.7; */
+        background-image: url("../images/slider-02.jpg") no-repeat;
+        background-size: cover;
+    }
+    40% {
+        /* opacity: 0.7; */
+        background: url("../images/slider9.jpg") no-repeat;
+        background-size: cover;
+    }
+    60% {
+        /* opacity: 0.7; */
+        background: url("../images/slider-03.jpg") no-repeat;
+        background-size: cover;
+    }
+    80% {
+        /* opacity: 0.7; */
+        background-image: url("../images/slider-04.jpg") no-repeat;
+        background-size: cover;
+    }
+    100% {
+        /* opacity: 0.7; */
+        background: url("../images/slider-01.jpg") no-repeat;
+        background-size: cover;
+    }
+}

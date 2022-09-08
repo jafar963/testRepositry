@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    background: url("../images/wallpaperflare.com_wallpaper.jpg") no-repeat fixed;
+    background-size: cover;
+}
+
+.container {
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2);
+    width: 640px;
+    padding: 50px;
+    margin-top: 100px;
+}
+
+.title {
+    border-bottom: 1px solid tomato;
+    padding: 10px;
+    margin: 20px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.header {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.scoreBox,
+.timeBox {
+    border-radius: 100px;
+    padding: 10px 15px;
+    border: 1px solid tomato;
+}
+
+.questionBox {
+    background-color: tomato;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+.optionBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    margin: 30px 0;
+}
+
+.optionBox span {
+    padding: 10px 15px;
+    background-color: #ccc;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.footer button {
+    background-color: rgb(228, 106, 69);
+    border-radius: 5px;
+    padding: 7px 15px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+}
+
+.resultBox {
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 15px;
+    font-size: 20px;
+}
+
+.resultBox :nth-child(odd) {
+    text-align: right;
+}
+
+.resultBox span {
+    font-weight: 600;
+}
+
+.buttonBox {
+    border-top: 1px solid tomato;
+    padding: 15px;
+    text-align: center;
+}
+
+.form-popup {
+    font-size: 20px;
+    position: fixed;
+    bottom: 60px;
+    right: 40%;
+    border: 3px solid #fff;
+    background: linear-gradient(to right, #f7f3f3 0%, #ffcbcb 50%, #f0aeae 99%);
+    box-shadow: 10px 10px 10px 10px rgb(179, 126, 126);
+    z-index: 9;
+    display: none;
+}
+
+.buttonBox a {
+    background-color: tomato;
+    border-radius: 50px;
+    border: none;
+    text-decoration: none;
+    color: #fff;
+    outline: none;
+    margin-top: 30px;
+    display: inline-block;
+    padding: 7px 15px;
+}
+
+@media screen and(max-width:800px) {
+    .container {
+        width: 425px;
+    }
+    .optionBox {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+        margin: 30px 0;
+    }
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1.2rem;
+    margin-top: 7%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1.2rem;
+    position: absolute;
+    bottom: 2px;
+    width: 100%;
+}

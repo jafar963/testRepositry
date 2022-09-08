@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body-register {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    background: linear-gradient(to right, #e2cbcb 0%, #faf8f8 50%, #faf9f9 99%);
+}
+
+.parent {
+    display: flex;
+    justify-content: space-around;
+}
+
+#sign-up-form,
+#left-section {
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 50px;
+    height: 80%;
+}
+
+.block-display {
+    display: flex;
+}
+
+#sign-up-form {
+    width: 700px;
+}
+
+#quiz-register {
+    margin-top: 20px;
+    width: 400px;
+    border-radius: 50px;
+    height: 300px;
+}
+
+#more-about-us {
+    width: 100px;
+    display: block;
+    margin-top: 100px;
+}
+
+#left-section div {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    width: 500px;
+    word-wrap: break-word;
+}
+
+#left-section h4 {
+    margin-top: 10px;
+    font-size: 20px;
+    word-wrap: break-word;
+    width: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#sign-up-form {
+    background: linear-gradient(to right, #f7f3f3 0%, #ffcbcb 50%, #f0aeae 99%);
+    box-shadow: 10px 10px 10px 10px rgb(179, 126, 126);
+}
+
+#sign-up-form span {
+    color: darkgray;
+    font-size: 25px;
+}
+
+
+/* #sign-up-form h3 {
+     margin-top: 20px;
+    margin-bottom: 5px; 
+
+
+}
+*/
+
+#sign-up-form a {
+    text-decoration: none;
+}
+
+#sign-up-form input,
+#sign-up-form button,
+#sign-up-form select {
+    width: 500px;
+    height: 50px;
+    background-color: rgb(243, 243, 243);
+    font-size: 20px;
+    text-indent: 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.block-display {
+    display: flex;
+    justify-content: space-between;
+}
+
+.note {
+    font-size: 12px;
+    font-family: monospace;
+}
+
+.word-display {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-right: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#sign-up-form button[type="submit"] {
+    margin-top: 50px;
+    background-color: rgb(196, 112, 112);
+    margin-left: 50px;
+    transition: 0.4s all;
+    margin-top: 30px;
+}
+
+#sign-up-form button[type="submit"]:hover {
+    background-color: rgb(184, 67, 67);
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
+#sign-up-form small {
+    color: red;
+    font-size: 16px;
+}
+
+.block-display #firstName,
+.block-display #lastName,
+.block-display #password,
+.block-display #confirm {
+    width: 300px;
+}

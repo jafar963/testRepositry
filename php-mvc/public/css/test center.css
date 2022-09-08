@@ -1,0 +1,213 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* color: black; */
+}
+
+h1 {
+    background: brown;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.admin-logo {
+    width: 200px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+.profile {
+    top: 20px;
+    position: absolute;
+    font-size: 15px;
+    font-weight: bold;
+    right: 40px;
+}
+
+.admin-profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+nav .profile-details img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    object-fit: cover;
+}
+
+.head-icons span a {
+    color: rgb(14, 11, 11);
+    padding-right: 10px;
+}
+
+.left-side-bar {
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: white;
+    position: fixed;
+    background-color: rgb(139, 13, 13);
+    width: 300px;
+    overflow-y: auto;
+    transition: width 300ms;
+}
+
+.side-menu ul li a {
+    margin-top: 20px;
+    color: #fff;
+    padding: 40px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    transition: all 0.4s ease;
+}
+
+.side-menu ul li a:hover {
+    background: brown;
+    color: #fff;
+    border-radius: 20px;
+    transition: all 0.4s ease;
+}
+
+header {
+    box-shadow: 0px 8px 15px 1px rgba(0, 0, 0, 0.5);
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 1rem;
+    position: fixed;
+    left: calc(250px + .9rem);
+    right: 1rem;
+    top: .5rem;
+    border-radius: 10px;
+    z-index: 999;
+    transition: left 300ms;
+    margin-left: 40px;
+    background: white;
+}
+
+main {
+    margin-top: calc(70px + .5rem);
+    padding: 1rem 0.8rem;
+}
+
+.main-content {
+    margin-left: 250px;
+    min-height: 100vh;
+    background: white;
+    padding: .5rem 1rem;
+    transition: margin 300ms;
+    color: #fff;
+}
+
+.cards1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 9rem;
+}
+
+.card1 {
+    background: rgb(170, 71, 71);
+    padding: 2rem 1rem;
+    border: 3px solid rgb(12, 8, 8);
+    border-radius: 20px;
+}
+
+.cards1:first-child {
+    margin-left: 100px;
+}
+
+.card-icon1 {
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+.card-icon1 span {
+    height: 55px;
+    width: 55px;
+    color: #fff;
+    font-size: 2rem;
+    border-radius: 6px;
+    display: grid;
+    place-items: center;
+}
+
+.formateur1 span {
+    color: #f42a26;
+    background: #fff8e5;
+}
+
+.card-info1 {
+    text-align: center;
+    margin-top: .6rem;
+}
+
+.card-info1 h2 {
+    font-size: 3rem;
+    color: #efefef;
+}
+
+.mode {
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    right: 250px;
+    top: 22px;
+}
+
+.change {
+    cursor: pointer;
+    border: 1px solid #555;
+    border-radius: 40%;
+    width: 20px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 8px;
+}
+
+.dark {
+    background: rgb(12, 12, 12);
+    color: #dbc6c6;
+}
+
+.white {
+    background: rgb(240, 234, 234);
+    color: #dbc6c6;
+}
+
+.side-menu .log_out {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#logo {
+    position: absolute;
+    left: 10px;
+    font-style: oblique;
+    font-weight: bold;
+    color: red;
+}
+
+.logo {
+    font-size: 50px;
+    color: red;
+    border: 1 solid black;
+    border-radius: 50%;
+    background-color: blanchedalmond;
+}

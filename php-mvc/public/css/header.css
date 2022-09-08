@@ -1,0 +1,62 @@
+nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #0005;
+    line-height: 80px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul {
+    float: right;
+    margin: 0;
+    margin-right: 1.9rem;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 50px;
+    font-size: larger;
+}
+
+#logo {
+    position: absolute;
+    left: 10px;
+    font-style: oblique;
+    font-weight: bold;
+    color: red;
+}
+
+.logo {
+    font-size: 50px;
+    color: red;
+    border: 1 solid black;
+    border-radius: 50%;
+    background-color: blanchedalmond;
+}
+
+.links-header {
+    position: absolute;
+    right: 10px;
+}
+
+nav ul li:hover {
+    background-color: rgb(156, 105, 105);
+    border-radius: 20px;
+    color: rgb(253, 250, 250);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+nav ul li:active {
+    color: rgb(33, 128, 83);
+}

@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    background-image: url("../images/wallpaperflare.com_wallpaper.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    height: 100%;
+}
+
+.container {
+    width: 940px;
+    background-color: #fff;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.1);
+    height: 600px;
+    padding: 80px 90px;
+    border-radius: 20px;
+    display: flex;
+    margin-top: 80px;
+}
+
+.leftSide,
+.rightSide {
+    width: 50%;
+}
+
+.leftSide img {
+    height: 300px;
+    width: 400px;
+}
+
+.rightSide h2 {
+    color: rgb(179, 33, 33);
+}
+
+.rightSide h4 {
+    color: black;
+    margin: 20px auto 10px;
+    font-size: 15px;
+}
+
+.rightSide {
+    margin-left: 60px;
+}
+
+.rightSide ul {
+    margin-top: 5px;
+    font-weight: 300;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+.rightSide ul li {
+    margin-top: 5px;
+}
+
+.rightSide a {
+    background-color: rgb(179, 33, 33);
+    border-radius: 100px;
+    color: white;
+    font-weight: 600;
+    width: 100%;
+    display: inline-block;
+    padding: 15px 0px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: 0.4s all;
+}
+
+.rightSide a:hover {
+    transform: translateY(-5px);
+    background-color: rgb(90, 6, 6);
+}
+
+
+/* media query*/
+
+@media screen and(max-width:800px) {
+    .leftSide {
+        display: none;
+    }
+    .container {
+        width: 425px;
+    }
+    .rightSide {
+        width: 100%;
+    }
+}

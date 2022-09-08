@@ -1,0 +1,115 @@
+.form-container small {
+    color: red;
+    font-size: 16px;
+}
+
+.all-users img {
+    border-radius: 50%;
+    width: 40px;
+}
+
+.all-users td a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.all-users .user-id {
+    font-size: larger;
+    color: #A52A2A;
+    font-weight: 700;
+}
+
+.all-users .username-container {
+    margin-left: 25%;
+}
+
+.open-button {
+    background-color: #A52A2A;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    width: 280px;
+    margin-left: 200px;
+}
+
+.form-popup {
+    width: 600px;
+    font-size: 20px;
+    position: sticky;
+    bottom: 10px;
+    border: 3px solid #fff;
+    background: linear-gradient(to right, #f7f3f3 0%, #ffcbcb 50%, #f0aeae 99%);
+    box-shadow: 10px 10px 10px 10px rgb(179, 126, 126);
+    z-index: 9;
+    display: none;
+    left: 40%;
+}
+
+.form-container {
+    max-width: 600px;
+    padding: 10px;
+    background-color: white;
+}
+
+.Full-width input fields .form-container label {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+}
+
+.form-container input,
+.form-container select {
+    font-size: 20px;
+    width: 100%;
+    padding: 15px;
+    margin: 5px 5px 22px 5px;
+    border: none;
+    background: #f1f1f1;
+}
+
+.form-container input[type=text]:focus,
+.form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.form-container .btn {
+    background-color: #12532b;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+.form-container .cancel {
+    background-color: red;
+}
+
+.form-container .btn:hover,
+.open-button:hover {
+    opacity: 1;
+}
+
+.word-display {
+    display: flex;
+}
+
+.form-popup-question {
+    width: 600px;
+    font-size: 20px;
+    position: sticky;
+    bottom: 10px;
+    border: 3px solid #fff;
+    background: linear-gradient(to right, #f7f3f3 0%, #ffcbcb 50%, #f0aeae 99%);
+    box-shadow: 10px 10px 10px 10px rgb(179, 126, 126);
+    z-index: 9;
+    display: none;
+    left: 40%;
+}
