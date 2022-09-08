@@ -17,6 +17,8 @@
         "source": "https://github.com/panique/php-mvc"
     },
     "require": {
-        "php": ">=5.3.0"
+        "php": ">=5.3.0",
+        "alrik11es/cowsayphp": "^1.2",
+        "csanquer/pdo-service-provider": "~1.1dev"
     }
 }
