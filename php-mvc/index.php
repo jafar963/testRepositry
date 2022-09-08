@@ -25,15 +25,15 @@ require 'application/libs/controller.php';
 // start the application
 $app = new Application();
 $dbopts = parse_url(getenv('postgresql-horizontal-02007'));
-$app->register(new Csanquer\Silex\PdoServiceProvider\Provider\PDOServiceProvider('pdo'),
-               array(
-                'pdo.server' => array(
-                   'driver'   => 'pgsql',
-                   'user' => $dbopts["user"],
-                   'password' => $dbopts["pass"],
-                   'host' => $dbopts["host"],
-                   'port' => $dbopts["port"],
-                   'dbname' => ltrim($dbopts["path"],'/')
-                   )
-               )
-); 
+// $app->register(new Csanquer\Silex\PdoServiceProvider\Provider\PDOServiceProvider('pdo'),
+//                array(
+//                 'pdo.server' => array(
+//                    'driver'   => 'pgsql',
+//                    'user' => $dbopts["user"],
+//                    'password' => $dbopts["pass"],
+//                    'host' => $dbopts["host"],
+//                    'port' => $dbopts["port"],
+//                    'dbname' => ltrim($dbopts["path"],'/')
+//                    )
+//                )
+// ); 
