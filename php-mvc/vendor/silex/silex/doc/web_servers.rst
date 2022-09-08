@@ -144,7 +144,7 @@ point:
     url.rewrite-once = (
         # configure some static files
         "^/assets/.+" => "$0",
-        "^/favicon\.ico$" => "$0",
+        "^/favicon.ico$" => "$0",
 
         "^(/[^\?]*)(\?.*)?" => "/index.php$1$2"
     )
